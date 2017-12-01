@@ -6,19 +6,21 @@ using System.Threading.Tasks;
 
 namespace Program
 {
- class Program
- {
-	static void Main(string[] args)
-	{
-		string yourName;
-		Console.WriteLine("What´s your fucking name?");
-		yourName = Console.ReadLine();
-		Console.WriteLine("Hello {0}", yourName);
-		int a = 7;
-		int b = 8;
-		a = b++;
-		c = a + b;
-		Console.WriteLine(c);
-	}		
- }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string yourName;
+            Console.WriteLine("What´s your fucking name?");
+            yourName = Console.ReadLine();
+            Console.WriteLine("Hello {0}", yourName);
+            int a = 7;
+            int b = 8;
+            int c;
+            a = b++;
+            c = a + b;
+            Console.WriteLine(c);
+            Console.ReadLine();
+        }
+    }
 }
