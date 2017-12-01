@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hello World 1.0
+{
+ class Program
+ {
+	static void Main(string[] args)
+	{
+		Console.WriteLine("What the fuck is going on?");
+		bool isTrue = false;
+		answer = Console.ReadLine();
+		
+		Console.WriteLine("Hello {1}", answer);
+		
+		
+	}		
+ }
+}
